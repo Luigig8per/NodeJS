@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-template-emails",
+  "version": "1.0.0",
+  "description": "Sending templated emails with Node.JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GeekLaunch",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "email-templates": "^2.6.0",
+    "handlebars": "^4.0.10",
+    "nodemailer": "^4.0.1"
+  },
+  "keywords": [
+    "emails",
+    "templates"
+  ]
+}

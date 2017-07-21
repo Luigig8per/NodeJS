@@ -1,0 +1,105 @@
+.src-image {
+	display: none;
+}
+
+.card {
+	overflow: hidden;
+	position: relative;
+	border: 1px solid #CCC;
+	border-radius: 8px;
+	text-align: center;
+	padding: 0;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+.color1{
+	background-color: #01D998;
+}
+
+.color2{
+	background-color: #FF567F;
+}
+
+.color3{
+	background-color: #FF994E;
+}
+
+.color4{
+	background-color: #8156FB;
+}
+
+.color5{
+	background-color: #007BF9;
+}
+
+.color6{
+	background-color: #41B85C;
+}
+
+.color7{
+	background-color: #FF6853;
+}
+
+.color8{
+	background-color: #B56A6A;
+}
+
+.color9{
+	background-color: #BC33F5;
+}
+
+.color10{
+	background-color: #00C2F7;
+}
+
+.color11{
+	background-color: #8199BB;
+}
+
+.color12{
+	background-color: #85B200;
+}
+.card .header-bg {
+	/* This stretches the canvas across the entire hero unit */
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 70px;
+
+	/* This positions the canvas under the text */
+	z-index: 1;
+}
+.card .avatar {
+	position: relative;
+	margin-top: 15px;
+	z-index: 100;
+}
+
+.card .avatar img {
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	border: 2px solid rgba(255,255,255,0.4);
+}
+
+.mes{
+	font-size: 25px;
+	color: #FFF;
+	text-shadow: 3px 0px 4px rgba(0, 0, 0, 0.73);
+}
+
+.dia{
+	font-size: 20px;
+	color: #FFF;
+	text-shadow: 3px 0px 4px rgba(0, 0, 0, 0.73);
+}
+
+.numero{
+	font-size: 50px;
+	color: #FFF;
+	text-shadow: 3px 0px 4px rgba(0, 0, 0, 0.73);
+}
